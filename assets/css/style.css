@@ -11,8 +11,8 @@ body {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+  width: 275px;
+  height: 200px;
 }
 
 /* general */
@@ -183,7 +183,7 @@ h3, h2 {
 }
 
 /* contact page */
-
+/* 
 #contact-form ul {
   margin-bottom: 20px;
 }
@@ -220,8 +220,13 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+} */
+.card-body {
+  height: 250px;
 }
-
+.card {
+  margin-left: 300px;
+}
 
 @media only screen and (max-width: 980px) {
   .main-section {
