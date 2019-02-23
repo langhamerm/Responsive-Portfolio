@@ -6,9 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio | Mark Langhamer Jr.</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -31,22 +38,65 @@
       <div class="work">
         <img id="cc-pic" src="assets/images/greenCry.jpeg" alt="Crystal Collector">
 
-        <h3>Crystal Collector</h3>
+        <div class="dropdown">
+          <button class="dropbtn" data-id="crystal">Crystal Collector</button>
+          <div id="myDropdown" class="dropdown-content" dropdown-id="crystal">
+            <a class="dropdown-item" href="https://langhamerm.github.io/unit-4-game/">Launched Site</a>
+            <a class="dropdown-item" href="https://github.com/langhamerm/unit-4-game">Github</a>
+          </div>
+        </div>
+
       </div>
       <div class="work">
         <img id="poke-pic" src="assets/images/pokeball2.jpg" alt="Who's that Pokemon?">
+        <div class="dropdown">
+            <button class="dropbtn" data-id="pokemon">Who's that Pokemon?</button>
+            <div id="myDropdown" class="dropdown-content" dropdown-id="pokemon">
+              <a class="dropdown-item" href="https://langhamerm.github.io/TriviaGame/">Launched Site</a>
+              <a class="dropdown-item" href="https://github.com/langhamerm/TriviaGame">Github</a>
+            </div>
+          </div>
 
-        <h3>Who's that Pokemon?</h3>
       </div>
       <div class="work">
         <img id="rps-pic" src="assets/images/Rpspic.png" alt="RPS Game">
+        <div class="dropdown">
+          <button class="dropbtn" data-id="rps">RPS-Multiplayer</button>
+          <div id="myDropdown" class="dropdown-content" dropdown-id="rps">
+            <a class="dropdown-item" href="https://langhamerm.github.io/RPS-Multiplayer/">Launched Site</a>
+            <a class="dropdown-item" href="https://github.com/langhamerm/RPS-Multiplayer">Github</a>
+          </div>
+        </div>
 
-        <h3>RPS Multiplayer</h3>
+
+      </div>
+      <div class="work">
+        <img id="flick-pic" src="assets/images/FliXit.png" alt="Flickscore Movie Rating and Info">
+
+        <div class="dropdown">
+          <button class="dropbtn" data-id="flick">Flickscore</button>
+          <div id="myDropdown" class="dropdown-content" dropdown-id="flick">
+            <a class="dropdown-item" href="https://flickscore.herokuapp.com/">Launched Site</a>
+            <a class="dropdown-item" href="https://github.com/flickscore/Flickscore">Github</a>
+          </div>
+        </div>
+        
+      </div>
+      <div class="work">
+        <img id="burger-pic" src="assets/images/burger.jpeg" alt="Burger">
+
+        <div class="dropdown">
+          <button class="dropbtn" data-id="burg">SQL Burgers To-Eat List</button>
+          <div id="myDropdown" class="dropdown-content" dropdown-id="burg">
+            <a class="dropdown-item" href="https://glacial-plateau-25356.herokuapp.com/">Launched Site</a>
+            <a class="dropdown-item" href="https://github.com/langhamerm/burger">Github</a>
+          </div>
+        </div>
+
       </div>
     </section>
 
   </div>
-
   <footer>
     <div class="container">
       Copyright &copy;
