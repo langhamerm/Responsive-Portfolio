@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/codingbg.jpeg");
+  background: url("https://images.wallpaperscraft.com/image/mesh_points_background_silver_18524_2560x1440.jpg");
 }
 
 * {
@@ -48,6 +48,8 @@ h1 {
   font-size: 30px;
   line-height: 49px;
   border-bottom: 3px solid #dddddd;
+  color: silver;
+  text-shadow: black 2px 2px;
 }
 
 h2,
@@ -64,23 +66,22 @@ h3 {
   margin: 0 0 30px;
   overflow: visible;
   color: #ffffff;
-  background: url("../images/codingbg.jpeg");
+  background: url("https://wallimpex.com/data/out/430/free-dark-wallpaper-8012999.jpg");
   border-bottom: 2px solid #cccccc;
 }
 
 #logo {
-  float: left;
-  width: 250px;
-  height: 90px;
+  width: 365px;
+  height: 100px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
   font-weight: 700;
-  text-shadow: red 2px 2px;
+  text-shadow: silver 2px 2px;
   line-height: 90px;
-  color:orange;
+  color: black;
   text-align: center;
   text-decoration: none;
-  background: url("../images/code2.jpg");
+  background: url("https://www.hbcompliance.com/wp-content/uploads/2018/02/bc.jpg");
 }
 
 nav {
@@ -94,8 +95,8 @@ nav a {
   padding-left: 15px;
   margin-left: 15px;
   line-height: 18px;
-  color: red;
-  text-shadow:lightseagreen 2px 2px;
+  color: silver;
+  text-shadow: black 2px 2px;
   text-decoration: bold;
   border-left: 1px solid #efefef;
   font-size: 25px;
@@ -115,7 +116,7 @@ footer {
   color: #cccccc;
   text-align: center;
   background: #666666;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid silver;
   height: 50px;
 }
 
@@ -137,12 +138,12 @@ h3, h2 {
   float: left;
   font-size: 25px;
   width: 100%;
-  color: greenyellow;
-  text-shadow: red 2px 2px;
+  color: silver;
+  text-shadow: black 2px 2px;
   max-width: 960px;
   padding: 30px;
   margin: 0 0 40px;
-  background: url("../images/code3.jpg");
+  background: url("https://wallimpex.com/data/out/430/free-dark-wallpaper-8012999.jpg");
   border: 1px solid #dddddd;
 }
 
@@ -283,7 +284,7 @@ h3, h2 {
 .show {display:block;}
 
 #contact-page {
-  color: greenyellow;
-  text-shadow: red 2px 2px;
+  color: silver;
+  text-shadow: black 2px 2px;
   font-size: 32px;
 }
